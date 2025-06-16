@@ -110,7 +110,7 @@ module "frontend_VM" {
                 apt install git-all
                 curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
                 apt-get install -y nodejs
-                git clone https://github.com/kunalbvskr/ToDoFrontend.git
+                git clone https://github.com/kbvskr/ToDoFrontend.git
                 cd /ToDoFrontend
                 sudo su
                 npm install
@@ -141,7 +141,7 @@ module "backend_VM" {
                 ACCEPT_EULA=Y apt-get install -y msodbcsql17
                 apt install -y python3-pip
                 apt install git-all
-                git clone https://github.com/kunalbvskr/ToDoBackend.git
+                git clone https://github.com/kbvskr/ToDoBackend.git
                 cd /ToDoBackend/
                 pip install -r requirements.txt
                 ##
