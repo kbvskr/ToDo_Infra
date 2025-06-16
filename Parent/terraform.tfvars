@@ -1,6 +1,6 @@
 RG_name                         = "yourRG"
 RG_location                     = "South India"
-Shared_RG_name                  = "ApnaRG"
+Shared_RG_name                  = "yourRG1"
 Shared_RG_location              = "East US"
 Vnet_name                       = "yourVnet"
 Vnet_address_space              = "10.0.0.0/16"
@@ -22,8 +22,8 @@ LinuxVMusername                 = "vmadmin"
 mssqlDBuserID                   = "dbadmin"
 mssqlDBpassword                 = "Mssqldb@12345"
 
-AKV_name                        = "ApnaKV"
-AKS_name                        = "ApnaAKS"
+AKV_name                        = "yourAKV"
+AKS_name                        = "yourAKS"
 worker_node_count               = 2
 worker_node_size                = "Standard_D2ps_v6"
 plugin_mode                     = "overlay"
